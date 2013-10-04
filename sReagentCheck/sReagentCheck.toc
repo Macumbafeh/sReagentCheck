@@ -1,0 +1,9 @@
+## Interface: 20400
+## Title: sReagentCheck
+## Notes: Counts Steal Your Carbon reagents on login.
+## Author: Siarkowy
+## Version: 1.0
+
+## Dependencies: StealYourCarbon
+
+core.lua
