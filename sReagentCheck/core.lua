@@ -19,7 +19,7 @@ frame:SetScript("OnEvent", function(self, event, ...)
                 shown = true
             end
 
-            DEFAULT_CHAT_FRAME:AddMessage(format("   %s %d/%d", link, count,
+            DEFAULT_CHAT_FRAME:AddMessage(format("   %s %d/%d", link or id, count,
                 target), 1/ratio, ratio, 0)
         end
     end
